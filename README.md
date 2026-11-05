@@ -27,8 +27,5 @@
   <img src="images/prototype.jpg" width="45%" alt="Собранный прототип" />
   <img src="images/web-interface.png" width="45%" alt="Веб-интерфейс" />
 </p>
-##  Как запустить (для серверной части)
-1. Клонируйте репозиторий.
-2. Установите зависимости: `pip install -r requirements.txt`.
-3. Настройте базу данных PostgreSQL и выполните миграции: `python manage.py migrate`.
-4. Запустите сервер: `python manage.py runserver`.
+
+В папке backend представлены основные файлы приложения Django (модели, представления). Полная конфигурация проекта разворачивалась на VPS
